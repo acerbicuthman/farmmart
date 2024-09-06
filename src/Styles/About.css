@@ -1,0 +1,93 @@
+
+.WhyFarmBox{
+    
+    background-color: darkcyan;
+    text-align: center;
+    color: #fff;
+    height: 256px;
+    margin-top:600px;
+    margin-right: -10px;
+    /* margin-left: -80px; */
+    width: 100%;
+}
+
+.WhyFarmtext{
+margin-top: 80px;
+font-size: 20px;
+
+
+}
+
+.Planthands{
+    width: 90vh;
+    height: 256px;
+    margin-right: -20px;
+    position: absolute;
+    /* margin-right: -40px; */
+    
+}
+.AboutBag{
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 70px;
+    
+}
+.NOshady{
+    height: 400px;
+    text-align: justify;
+    margin-top: 10px;
+    height: 400px;
+    
+    
+}
+.NoshadyText{
+    margin-top: 30px;
+    font-size: 20px;
+    /* width: 500px; */
+    margin-left: 50px;
+    position: relative;
+    
+    
+}
+.OurStandard{
+    height: 400px;
+    width: 700px;
+  margin-bottom: 10px;
+    position: absolute;
+    object-fit: cover;
+    margin-right: -20px;
+}
+.HandPotatoes{
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 70px;
+}
+.ThenanadNow{
+    width: 100%;
+    height: 94vh;
+background-image: url(https://farmboxdelivery.com/skin1_layouts/modern/images/vegetables-wallpaper.jpg);
+
+}
+.ThenandNownfo{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+   margin-left: 150px;
+    margin-bottom: -100px;
+}
+
+.FathersON{
+    height: 300px;
+    width: 400px;
+    margin-top: 250px;
+   margin-left: -50px;
+   position: absolute;
+   border: 5px;
+   border-color: #fff;
+   background-color: #fff;
+   background-size: 900px;
+
+  
+}

@@ -1,0 +1,66 @@
+.footerbody{
+    background-color: whitesmoke;
+    height: 50%;
+    
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.footerimglogo{
+    height: 200px;
+    width: 200px;
+    margin-top: 2px;
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+ }
+
+ .Info{
+    margin-left: 300px;
+ }
+
+ .footerfinisher{
+    font-size: xx-small;
+    margin-left: 100px;
+    margin-top: 100px;
+
+ }
+ #separator {
+    height: 10px;
+    background-color: red;
+    border: none;
+  }
+
+  .socialIcon{
+   margin-left: 400px;
+   margin-top: 100px;
+   display: flex;
+   margin-bottom: 10px;
+   
+  }
+
+.backtoTop{
+    margin-left: 1000px;
+    padding-left: 300px;
+}

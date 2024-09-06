@@ -1,0 +1,147 @@
+.cardimg{
+    height: 550px;
+    object-fit: cover;
+}
+.cardtitle{
+    font-weight: 400;
+    font-size: 80px;
+    margin-left: 200px;
+    padding-top: 100px;
+    text-shadow: 5px 5px black;
+    box-shadow: 5px;
+}
+
+.montserrat-cardtitle {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.join{
+width: 200px;
+height: 80px;
+margin-left: 600px;
+margin-top: 100px;
+background-color: rgb(241, 102, 52);
+color: #fff;
+border: 2px ridge white;
+font-size: 24px;
+opacity: 0.8;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+}
+
+.join:hover {opacity: 2}
+
+.howitworks{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.color{
+    object-fit: cover;
+    height: 150px;
+    margin: 10px 50px;
+}
+.colorcontain{
+  padding-left: 100px;
+  
+}
+
+.prodbox{
+    margin: 0 auto;
+  align-self: center;
+  overflow: hidden;
+}
+
+.marketbox:hover img {
+    -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+  transform: scale(1.03);
+    color: white;}
+
+.marketbox:hover .imgtext {
+        -webkit-opacity: 1;
+        opacity: 1;
+        color: #fff;
+        box-shadow: 3px black;
+      }
+.imgtext {
+        color: white;
+        font-family: 'Pragati Narrow', sans-serif;
+        font-size: 1em;
+        letter-spacing: 2px;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+      }
+.BackImg{
+
+margin-top: 50px;
+background-image: url(https://farmboxdelivery.com/skin1_layouts/modern/images/vegetables-wallpaper.jpg);
+height: 90vh;
+width: 100%;
+
+}
+
+.shopNowbtn{
+    width: 200px;
+height: 80px;
+margin-left: 600px;
+margin-top: 50px;
+background-color: rgb(241, 102, 52);
+color: #fff;
+border: 2px ridge white;
+font-size: 24px;
+opacity: 0.8;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+}
+
+.Review{
+    color: rgb(110, 184, 184);
+}
+.MoreAboutUs{
+
+   margin-left: 250px;
+   font-size: 4vh;
+
+}
+.Blogpost{
+    height: 300px;
+    width: 400px;
+    margin-top: 180px;
+   margin-left: -70px;
+   position: absolute;
+   border: 5px;
+   border-color: #fff;
+   background-color: #fff;
+   background-size: 900px;
+}
+.Feedimg{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 0;
+    
+}
+.EmailForm{
+   margin-left: 400px;
+}

@@ -1,0 +1,32 @@
+details{
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align-last: left;
+   
+    
+}
+details summary {
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  padding: 4px;
+  /* background-color: #eeeeee; */
+  border: none;
+  /* box-shadow: 1px 1px 2px #bbbbbb; */
+
+  transition-timing-function: ease;
+  cursor: pointer;
+  list-style: square;
+}
+details summary:hover{
+    color: red;
+}
+
+details p {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(241, 238, 238);
+  
+}

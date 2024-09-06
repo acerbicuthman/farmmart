@@ -1,0 +1,32 @@
+.Howitworksbg{
+    height: 200px;
+    object-fit: cover;
+    max-width: 1100vh;
+}
+.FruitPickBag{
+    margin-top: 300px;
+}
+.HowTyping{
+   float: right;
+   margin-top: -150px;
+}
+.PickGrocery{
+float: right;
+margin-top: -350px;
+
+}
+.Truckpage{
+    margin-top: 300px;
+}
+.TruckpageTxt{
+    float: right;
+    margin-top: -250px;
+  
+}
+.RecycleBox{
+    margin-top: 200px;
+}
+.RecycleBoxTxt{  float: right;
+    margin-top: -250px;
+
+}
