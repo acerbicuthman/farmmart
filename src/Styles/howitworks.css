@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+
+.HowTyping {
+    width: 100%; /* Use full width for better responsiveness */
+    max-width: 350px; /* Set a max width for larger screens */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+}
+
+.Howitworksbg {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+.Howitworks {
+    font-size: 5vw; /* Responsive font size */
+}
+
+@media (min-width: 768px) {
+    .HowTyping {
+        margin-right: 10rem; /* Add margin for larger screens */
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+
+    li {
+        font-size: 0.9rem; /* Adjust list item font size */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    h2 {
+        font-size: 2rem; /* Medium screen size */
+    }
+
+    li {
+        font-size: 1rem; /* Medium screen size */
+    }
+}
+
+.choose li {
+    font-size: 1.3rem;
+}

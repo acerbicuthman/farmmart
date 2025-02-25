@@ -1,0 +1,66 @@
+/* General styles for the card group */
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -10px; /* Adjust for padding */
+  }
+  
+  /* Styles for the card details */
+  .Discoverdetails {
+    width: 250px; /* Fixed width for larger screens */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px; /* Space between cards */
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .Discoverdetails:hover {
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive image styles */
+  .feedimg {
+    width: 135px; /* Fixed size */
+    height: 135px; /* Fixed size */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  /* Input box styling */
+  .emailbox {
+    max-width: 600px; /* Maximum width for larger screens */
+  }
+  
+  .emailbox:hover,
+  .emailbox:active {
+    border: none; /* Remove border on hover and active */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .Discoverdetails {
+      width: 80%; /* Responsive width for medium screens */
+      max-width: 250px; /* Limit max width */
+    }
+  
+    .feedimg {
+      width: 100%; /* Make images responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .emailbox {
+      width: 80%; /* Wider input box on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .Discoverdetails {
+      width: 100%; /* Full width card on very small screens */
+    }
+  
+    .emailbox {
+      width: 100%; /* Full width input on very small screens */
+    }
+  }
+  

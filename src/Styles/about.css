@@ -1,0 +1,107 @@
+
+  
+  .WhyFarmBox {
+    background-color: darkcyan;
+    text-align: center;
+    color: #fff;
+    height: auto; 
+    width: 100%;
+    
+  }
+  
+  .WhyFarmtext {
+  margin: 70px;
+    font-size: 2rem; 
+
+ 
+  }
+  
+  .Planthands {
+    width: auto;
+    max-width: 90vh; 
+    height: auto; 
+    margin: 0; 
+  }
+  
+  .AboutBag {
+    width: 100%;
+    max-width: 750px; /* Make it responsive */
+    height: auto; /* Change from fixed height */
+    object-fit: cover;
+    margin: 1rem; /* Use margin for spacing */
+  }
+  
+  .NOshady {
+    text-align: justify;
+    margin-top: 1rem;
+  }
+  
+  /* .NoshadyText {
+    margin-top: 1rem;
+    font-size: 1.5rem; 
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 90%; 
+  } */
+  
+  .OurStandard {
+    width: 100%;
+    max-width: 700px; /* Make it responsive */
+    height: auto; /* Change from fixed height */
+    margin-bottom: 1rem; /* Use margin for spacing */
+    object-fit: cover;
+  }
+  
+  .HandPotatoes {
+    width: 100%;
+    max-width: 750px; /* Make it responsive */
+    height: auto; /* Change from fixed height */
+    margin: 1rem; /* Use margin for spacing */
+  }
+  
+  .ThenanadNow {
+    width: 100%;
+    height: auto; /* Change from fixed height */
+    background-image: url(https://farmboxdelivery.com/skin1_layouts/modern/images/vegetables-wallpaper.jpg);
+    background-size: cover; /* Ensure the background covers */
+    padding: 2rem; /* Add padding for content */
+  }
+  
+  .FathersON {
+    width: 100%;
+    max-width: 400px; /* Make it responsive */
+    height: auto; /* Change from fixed height */
+    margin-top: 1rem;
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+    border: 5px solid #fff; /* Added solid border */
+    background-color: #fff;
+    background-size: cover; /* Adjust for background */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .WhyFarmBox {
+      margin-top: 1rem;
+    }
+    
+    .WhyFarmtext {
+      font-size: 1.5rem; /* Smaller font for smaller screens */
+    }
+  
+    .NoshadyText {
+      font-size: 1.2rem; /* Smaller font for readability */
+    }
+    
+    .ThenandNownfo {
+      width: 90%; /* Adjust for smaller screens */
+      margin: 0 auto; /* Center it */
+      height: auto; /* Change from fixed height */
+    }
+  
+    .FathersON {
+      max-width: 100%; 
+      height: auto; 
+    }
+  }
+  

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+}
+
+.footerbody {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.footerimglogo {
+    max-width: 100%; /* Make logo responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footerfinisher {
+    font-size: small;
+    margin-top: 20px; /* Reduced margin for better responsiveness */
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 0px;
+}
+
+.nav-link {
+    color: #6c757d; /* Bootstrap secondary color */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    margin-top: 10px;
+}

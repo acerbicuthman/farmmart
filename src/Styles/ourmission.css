@@ -1,0 +1,49 @@
+
+.MoreAboutUs {
+    justify-content: center;
+    margin-left: auto; /* Aligns to the right */
+    font-size: 4vh;
+    text-decoration: none;
+    color: red;
+    max-height: max-content;
+    
+  }
+  .MoreAboutUs:hover{
+    text-decoration: underline;
+
+  }
+  .Blogpost {
+    max-height: 300px; 
+    max-width: 100%; 
+    margin: 0px; 
+    
+    
+  }
+  
+  /* Centering specifically for small screens */
+  @media screen and (max-width: 768px) {
+    .Blogpost {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; /* Adjust based on the desired centering */
+    }
+  }
+  
+  .BackImg {
+    margin-top: 50px;
+    background-image: url('https://farmboxdelivery.com/skin1_layouts/modern/images/vegetables-wallpaper.jpg');
+    height: 90vh;
+    width: 100%;
+    background-size: cover; 
+    position: absolute; 
+    margin-left: -8.85vh;
+    
+    
+  }
+  @media (max-width: 768px) {
+    .MoreAboutUs {
+      margin-left: 0; /* Reset margin for smaller screens */
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
