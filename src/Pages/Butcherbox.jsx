@@ -11,7 +11,7 @@ import HubbbakSauce from "../Images/hoboken vodka sause.jpeg";
 const Groceries = () => {
   return (
     <div>
-      <ProduceBoxNav />
+      {/* <ProduceBoxNav /> */}
       <h2>Groceries</h2>
       <div class="container">
         <div class="ProduceBox">

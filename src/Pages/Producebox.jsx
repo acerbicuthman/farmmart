@@ -5,7 +5,7 @@ import ProduceBoxCard from '../AboutDetails/ProduceBoxCard'
 const Producebox = () => {
   return (
     <div>
-      <ProduceBoxNav/>
+      {/* <ProduceBoxNav/> */}
       <ProduceBoxCard/>
     </div>
   )
