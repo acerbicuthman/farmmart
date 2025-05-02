@@ -8,6 +8,7 @@ import Recycle from "../Images/recycle1.jpg";
 import Truck from '../Images/truck1.jpg'
 import '../Styles/howitworks.css'
 import Discover from '../Components/Discover';
+import AOS from 'aos';
 
 const Howitworks = () => {
   useEffect(() => {

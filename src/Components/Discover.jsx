@@ -8,6 +8,7 @@ import Feed3 from '../Images/Feed/feed_3.jpg';
 import Feed4 from '../Images/Feed/feed_4.jpg';
 import Feed5 from '../Images/Feed/feed_5.jpg';
 import Feed6 from '../Images/Feed/feed_6.jpg';
+import AOS from 'aos';
 
 const Discover = () => {
   useEffect(() => {

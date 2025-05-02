@@ -83,28 +83,104 @@
 
 
 
-
-
-/* .navbar {
-  z-index: 9999; 
-  position: sticky; 
-  top: 0; 
+/* Modal Background */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
   width: 100%; 
-  height: 50p;
-} */
-
-/* .navbar a:hover, .navbar a:visited, .navbar button:hover, .navbar button:visited, .navbar a:active {
-  text-decoration: underline orangered 4px;
-} */
-
-/* .dropdowndetail {
-  font-size: 20px;
-  padding: 5px;
-  margin: 5px;
-  color: black;
-  text-decoration: none;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); 
 }
-*/
+
+.modal-input{
+  padding: 5px;
+}
+.checkBtn{
+  background-color: orangered;
+  color: white;
+  border: none;
+  margin: 0 4px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  /* padding: 20px; */
+  border: 1px solid #888;
+  width: 100%; /* Adjust the width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Header */
+
+.modal-title{
+  font-size: 20px;
+}
+.modal-header {
+ 
+  background-color: orangered;
+  color: white;
+  height: 50px;
+  
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+margin-left: 5px;}
+
+.modal-footer button{
+  background-color: aliceblue;
+  color: black;
+  /* border: none; */
+  border-radius: 4px;
+}
+.modal-footer button:hover{
+  color: black;
+  background-color: rgb(194, 210, 224);
+  border: 3px solid black;
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 486px) {
+  .modal {
+    width: 100%;
+    max-width: 390px;
+  }
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-menu{
+  width: 300px;
+}
+.dropdowndetail{
+ 
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+  padding: 5px 5px;
+
+}
 /* Default hover behavior for larger screens */
 .dropdowndetail a:hover {
   transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
@@ -113,12 +189,18 @@
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
+  
 }
+
 
 /* Hide dropdown hover effect on smaller screens (for mobile devices) */
 @media (max-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: none; /* Disable hover dropdown on smaller screens */
+  }
+  .signInLogBtn{
+top: 0;
+
   }
 }
 
@@ -149,7 +231,7 @@
   margin-left: 5px;
 }
 
-.SignUpBtn {
+/* .SignUpBtn {
   border-color: crimson;
   color: black;
   border: 5px;
@@ -159,11 +241,11 @@
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
-}
+} */
 
-.SignUpBtn:hover {
+/* .SignUpBtn:hover {
   background-color: crimson;
-}
+} */
 .progress-bar {
   position: fixed;
   top: 0;

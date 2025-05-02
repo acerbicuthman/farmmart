@@ -51,7 +51,7 @@ const SignUp = () => {
           
         });
 
-        navigate("/login");
+        // navigate("/login");
         alert("Successfully Signed Up");
         // setLoading(false);
       }
