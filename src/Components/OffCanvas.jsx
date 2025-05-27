@@ -16,20 +16,35 @@ const OffCanvas = ({ openModal, closeModal, isModalOpen, handleOutsideClick }) =
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
+      <div className="dropdown">
+  <button
+    className="btn btn-secondary dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Dropdown button
+  </button>
+  <ul className="dropdown-menu">
+    <li><a className="dropdown-item" href="#">Action</a></li>
+    <li><a className="dropdown-item" href="#">Another action</a></li>
+    <li><a className="dropdown-item" href="#">Something else</a></li>
+  </ul>
+</div>
+
         <ul className="navbar-nav me-auto mt-2 mb-2 mb-lg-0">
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <button
               className="btn btn-body-color bg-light dropdown-toggle w-100 w-lg-auto"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-              // onClick={'/'}
             >
               WHY FARMBOX
             </button>
             <ul className="dropdown-menu">
               <li className="dropdowndetail">
-                <Link className="dropdowndetail" to="/AboutUs">ABOUT US</Link>
+                <a className="dropdowndetail" to="/AboutUs"> <Link> ABOUT US</Link></a>
               </li>
               <li className="dropdowndetail">
                 <Link className="dropdowndetail" to="/howitworks">HOW IT WORKS</Link>
@@ -41,7 +56,7 @@ const OffCanvas = ({ openModal, closeModal, isModalOpen, handleOutsideClick }) =
                 <Link className="dropdowndetail" to="/Faq">FARMERS AND PRODUCERS</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/ProduceBox">PRODUCE BOX</Link>
           </li>

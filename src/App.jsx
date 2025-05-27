@@ -3,16 +3,16 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import { motion, useScroll, useSpring } from "framer-motion";
 import './App.css'
-import Faq from "../../farmclone/src/Pages/Faq";
-import Home from "../../farmclone/src/Pages/Home";
-import About from "../../farmclone/src/Pages/About";
-import Groceries from "../../farmclone/src/Pages/Groceries";
-import HowitWorks from "../../farmclone/src/Pages/Howitworks";
-import Login from "../../farmclone/src/Pages/Login";
-import SignUp from "../../farmclone/src/Pages/SignUp";
-import Producebox from "../../farmclone/src/Pages/Producebox";
-import Butcherbox from "../../farmclone/src/Pages/Butcherbox";
-import Search from '../../farmclone/src/Images/search_icon.svg'
+import Faq from "./Pages/Faq";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Groceries from "./Pages/Groceries";
+import HowitWorks from "./Pages/Howitworks";
+import Login from "./Pages/Login";
+import SignUp from "./Pages/SignUp";
+import Producebox from "./Pages/Producebox";
+import Butcherbox from "./Pages/Butcherbox";
+import Search from './Images/search_icon.svg'
 import { Routes, Route, Router, useLocation} from 'react-router-dom';
 import { BsCartPlus } from "react-icons/bs";
 // import PreSignUP from './Pages/PreSignUp';
